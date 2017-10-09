@@ -26,6 +26,7 @@
         android:hint="預約的時間為?"/>
 
     <ImageView
+        android:id="@+id/image2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/query1"/>
