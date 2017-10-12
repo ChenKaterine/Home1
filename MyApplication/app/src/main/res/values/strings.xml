@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="news">最新消息</string>
-    <string name="contact">聯絡方式</string>
-    <string name="about">公司介紹</string>
-    <string name="query">預約查詢</string>
-</resources>
