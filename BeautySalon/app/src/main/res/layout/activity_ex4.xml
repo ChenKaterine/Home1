@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context="com.example.student.beautysalon.EX4">
 
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="預約的時間為?"
+        android:textSize="24sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,12 +25,13 @@
         android:id="@+id/btn5"
         android:onClick="click5"
         android:text="確認"/>
-
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="預約的時間為?"/>
+
+        android:textSize="24sp"/>
+
 
     <ImageView
         android:id="@+id/image2"
