@@ -32,6 +32,6 @@ public class EX5 extends AppCompatActivity {
     }
 
     public void click7(View view) {
-        
+
     }
 }
