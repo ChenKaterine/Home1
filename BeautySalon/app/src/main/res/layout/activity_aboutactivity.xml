@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/about1"
-    tools:context="com.example.student.beautysalon.EX3">
+    tools:context="com.example.student.beautysalon.AboutActivity">
 
 </RelativeLayout>

@@ -7,45 +7,34 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1,btn2,btn3,btn4;
+    Button btnnews,btnabout,btnquery,btncontact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn1=(Button)findViewById(R.id.btn1);
-        btn2=(Button)findViewById(R.id.btn2);
-        btn3=(Button)findViewById(R.id.btn3);
-        btn4=(Button)findViewById(R.id.btn4);
+        btnnews=(Button)findViewById(R.id.btnnews);
+        btnabout=(Button)findViewById(R.id.btnabout);
+        btnquery=(Button)findViewById(R.id.btnquery);
+        btncontact=(Button)findViewById(R.id.btncontact);
     }
-    public void click1(View v){
-        Intent it=new Intent(this, EX2.class);
+    public void clicknews(View v){
+        Intent it=new Intent(this, NewsActivity.class);
         startActivity(it);
     }
 
-    public void click2(View v){
-        Intent it=new Intent(this, EX3.class);
+    public void clickabout(View v){
+        Intent it=new Intent(this, AboutActivity.class);
         startActivity(it);
     }
-    public void click3(View v){
-        Intent it=new Intent(this, EX4.class);
+    public void clickquery(View v){
+        Intent it=new Intent(this, QueryActivity.class);
         startActivity(it);
     }
-    public void click4(View v){
-        Intent it=new Intent(this, EX5.class);
+    public void clickcontact(View v){
+        Intent it=new Intent(this, ContactActivity.class);
         startActivity(it);
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

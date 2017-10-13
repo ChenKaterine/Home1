@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="com.example.student.beautysalon.EX5">
+    tools:context="com.example.student.beautysalon.ContactActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,26 +15,26 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn6"
-            android:onClick="click6"
+            android:id="@+id/btntalk"
+            android:onClick="clicktalk"
             android:text="線上對話"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn7"
-            android:onClick="click7"
+            android:id="@+id/btnemail"
+            android:onClick="clickemail"
             android:text="E-mail"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn8"
-            android:onClick="click8"
+            android:id="@+id/btnmap"
+            android:onClick="clickmap"
             android:text="地圖"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn9"
-            android:onClick="click9"
+            android:id="@+id/btntel"
+            android:onClick="clicktel"
             android:text="電話聯絡"/>
     </LinearLayout>
 

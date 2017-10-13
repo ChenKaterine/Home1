@@ -23,14 +23,14 @@
             <Button
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn1"
-                android:onClick="click1"
+                android:id="@+id/btnnews"
+                android:onClick="clicknews"
                 android:text="@string/news"/>
             <Button
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn2"
-                android:onClick="click2"
+                android:id="@+id/btnabout"
+                android:onClick="clickabout"
                 android:text="@string/about"/>
         </LinearLayout>
 
@@ -44,17 +44,17 @@
 
 
             <Button
-                android:id="@+id/btn3"
+                android:id="@+id/btnquery"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:onClick="click3"
+                android:onClick="clickquery"
                 android:text="@string/query" />
 
             <Button
-                android:id="@+id/btn4"
+                android:id="@+id/btncontact"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:onClick="click4"
+                android:onClick="clickcontact"
                 android:text="@string/contact" />
 
 

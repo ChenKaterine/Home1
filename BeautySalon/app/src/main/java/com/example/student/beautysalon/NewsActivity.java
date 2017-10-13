@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
-public class EX2 extends AppCompatActivity {
+public class NewsActivity extends AppCompatActivity {
     WebView wv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ex2);
+        setContentView(R.layout.activity_newsactivity);
         wv = (WebView) findViewById(R.id.webView);
         //設定網路連線true
         wv.getSettings().setJavaScriptEnabled(true);

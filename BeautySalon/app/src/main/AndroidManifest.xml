@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EX2" />
-        <activity android:name=".EX3" />
-        <activity android:name=".EX4" />
-        <activity android:name=".EX5"></activity>
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".QueryActivity" />
+        <activity android:name=".ContactActivity"></activity>
     </application>
 
 </manifest>
