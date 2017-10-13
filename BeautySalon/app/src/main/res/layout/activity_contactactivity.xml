@@ -38,11 +38,10 @@
             android:text="電話聯絡"/>
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_margin="5dp"
-        android:id="@+id/image5"/>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="700dp"
+            android:id="@+id/textcontact"/>
 
 
 </LinearLayout>

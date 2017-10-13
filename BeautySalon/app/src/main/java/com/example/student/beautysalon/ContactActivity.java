@@ -8,11 +8,11 @@ import android.view.View;
 
 public class ContactActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactactivity);
-
 
     }
 
@@ -20,6 +20,8 @@ public class ContactActivity extends AppCompatActivity {
         Uri uri = Uri.parse("tel://0227735243");
         Intent it = new Intent(Intent.ACTION_DIAL, uri);
         startActivity(it);
+
+
     }
 
     public void clickmap(View view) {
