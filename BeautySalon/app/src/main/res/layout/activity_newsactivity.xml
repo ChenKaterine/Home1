@@ -7,10 +7,6 @@
 
     tools:context="com.example.student.beautysalon.NewsActivity">
 
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
 
 </LinearLayout>
