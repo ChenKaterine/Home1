@@ -5,14 +5,16 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 
 public class ContactActivity extends AppCompatActivity {
-
+    ImageView image3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactactivity);
+        image3=(ImageView)findViewById(R.id.image3);
 
     }
 
@@ -35,8 +37,8 @@ public class ContactActivity extends AppCompatActivity {
 
         Intent intent = new Intent(Intent.ACTION_SENDTO); // it's not ACTION_SEND
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Subject of email");
-        intent.putExtra(Intent.EXTRA_TEXT, "Body of email");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "請問Beauty Salon");
+        intent.putExtra(Intent.EXTRA_TEXT, "我是...");
         intent.setData(Uri.parse("mailto:chen.katerine@gmail.com")); // or just "mailto:" for blank
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // this will make such that when user returns to your app, your app is displayed, instead of the email app.
         startActivity(intent);

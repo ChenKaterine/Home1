@@ -39,10 +39,11 @@
             android:text="電話聯絡"/>
     </LinearLayout>
 
-        <TextView
+        <ImageView
+
             android:layout_width="400dp"
             android:layout_height="700dp"
-            android:id="@+id/textcontact"/>
+            android:id="@+id/image3"/>
 
 
 </LinearLayout>
