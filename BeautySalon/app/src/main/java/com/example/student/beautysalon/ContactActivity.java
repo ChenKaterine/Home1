@@ -17,7 +17,7 @@ public class ContactActivity extends AppCompatActivity {
     }
 
     public void clicktel(View view) {
-        Uri uri = Uri.parse("tel://0227735243");
+        Uri uri = Uri.parse("tel:0227735243");
         Intent it = new Intent(Intent.ACTION_DIAL, uri);
         startActivity(it);
 
@@ -48,7 +48,7 @@ public class ContactActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setClassName(PACKAGE_NAME, CLASS_NAME);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, "Hello World!!");
+        intent.putExtra(Intent.EXTRA_TEXT, "Hello");
         startActivity(intent);
     }
 }
