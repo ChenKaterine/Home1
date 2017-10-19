@@ -24,6 +24,6 @@ public class NewsDetail extends AppCompatActivity {
 //        settings.setJavaScriptEnabled(true);
 //        settings.setSupportZoom(true);
 //        settings.setBuiltInZoomControls(true);
-//        settings.setDomStorageEnabled(false);
+//         settings.setDisplayZoomControls(false);
     }
 }
