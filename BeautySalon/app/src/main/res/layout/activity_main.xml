@@ -6,12 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/home"
     tools:context="com.example.student.beautysalon.MainActivity">
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
