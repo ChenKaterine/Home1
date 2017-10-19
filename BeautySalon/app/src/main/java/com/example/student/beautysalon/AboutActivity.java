@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class AboutActivity extends AppCompatActivity {
@@ -19,5 +20,11 @@ public class AboutActivity extends AppCompatActivity {
         Intent it = getIntent();
         wv.clearCache(true);
         wv.loadUrl("https://android-5bfc6.firebaseapp.com/");
+
+        WebSettings settings=wv.getSettings();
+        settings.setJavaScriptEnabled(true);
+        settings.setSupportZoom(true);
+        settings.setBuiltInZoomControls(true);
+        settings.setDomStorageEnabled(false);
     }
 }
