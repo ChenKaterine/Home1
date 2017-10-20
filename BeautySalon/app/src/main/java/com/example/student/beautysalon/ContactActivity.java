@@ -14,7 +14,7 @@ public class ContactActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactactivity);
-        image3=(ImageView)findViewById(R.id.image3);
+
 
     }
 

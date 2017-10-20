@@ -4,4 +4,8 @@
     <string name="contact">聯絡方式</string>
     <string name="about">公司介紹</string>
     <string name="query">預約查詢</string>
+    <string name="talk">線上對話</string>
+    <string name="mail">E-mail</string>
+    <string name="map">地圖</string>
+    <string name="phone">電話聯絡</string>
 </resources>

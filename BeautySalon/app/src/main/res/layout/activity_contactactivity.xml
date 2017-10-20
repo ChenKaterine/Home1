@@ -10,40 +10,60 @@
     tools:context="com.example.student.beautysalon.ContactActivity">
 
     <LinearLayout
+        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textColor="@color/button_text"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:background="#00000000"
+            android:shadowRadius="5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
             android:id="@+id/btntalk"
             android:onClick="clicktalk"
-            android:text="線上對話"/>
+            android:text="@string/talk"/>
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/btnemail"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#00000000"
             android:onClick="clickemail"
-            android:text="E-mail"/>
+            android:shadowRadius="5"
+            android:text="@string/mail"
+            android:textColor="@color/button_text"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:background="#00000000"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
             android:id="@+id/btnmap"
             android:onClick="clickmap"
-            android:text="地圖"/>
+            android:text="@string/map"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:background="#00000000"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
             android:id="@+id/btntel"
             android:onClick="clicktel"
-            android:text="電話聯絡"/>
+            android:text="@string/phone"/>
     </LinearLayout>
-
-        <ImageView
-
-            android:layout_width="400dp"
-            android:layout_height="700dp"
-            android:id="@+id/image3"/>
 
 
 </LinearLayout>
